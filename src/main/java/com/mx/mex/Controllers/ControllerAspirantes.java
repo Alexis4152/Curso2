@@ -51,7 +51,8 @@ public class ControllerAspirantes {
 	ResponseEntity <  List<Aspirantes> > getAspirantes(){
 		final HttpHeaders httpHeaders = new HttpHeaders();
 		List<Aspirantes> lista = aspirantes.getAspirantes();
-		
+		System.out.println("ACTUALIZACION DE GIT");
+		System.out.println("ACTUALIZACION DE GIT2");
 //		for(Aspirantes run : lista) {
 //			System.out.println("Nombre: "+run.getIdAlumno());
 //	    	System.out.println("Edad: "+run.getNombreAlumno());
@@ -67,7 +68,7 @@ public class ControllerAspirantes {
 	// 200 = OK
 	// 403 = NO PERMITIDO 
 	// 404 = LA PAGINA O RUTA NO SE ENCUENTRA
-	// 500 = ES UN EXCEPCIÓN INTERNA
+	// 500 = ES UN EXCEPCIï¿½N INTERNA
 	// ,503 = NO TE ENCUENTRAS AUTORIZADA
 	// 
 
