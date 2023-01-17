@@ -53,6 +53,7 @@ public class ControllerAspirantes {
 		List<Aspirantes> lista = aspirantes.getAspirantes();
 		System.out.println("ACTUALIZACION DE GIT");
 		System.out.println("ACTUALIZACION DE GIT2");
+		System.out.println("ACTUALIZACION DE GIT3");
 //		for(Aspirantes run : lista) {
 //			System.out.println("Nombre: "+run.getIdAlumno());
 //	    	System.out.println("Edad: "+run.getNombreAlumno());
